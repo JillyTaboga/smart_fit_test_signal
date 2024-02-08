@@ -1,0 +1,49 @@
+{
+  "headerTitle": "REABERTURA SMART FIT",
+  "warningHeader": "O horário de funcionamento das nossas unidades está seguindo os decretos de cada município. Por isso, confira aqui se a sua unidade está aberta e as medidas de segurança que estamos seguindo.",
+  "formHour": "Horário",
+  "formWhatTime":"Qual período quer treinar?",
+  "formMorning": "Manhã",
+  "formMorningTime": "06:00 às 12:00",
+  "formAfternoon": "Tarde",
+  "formAfternoonTime": "12:01 às 18:00",
+  "formNight": "Noite",
+  "formNightTime": "18:01 às 23:00",
+  "formShowClosed": "Exibir unidades fechadas",
+  "formFind": "Encontrar unidade",
+  "formClean": "Limpar",
+  "formFinds": "Resultados encontrados",
+  "legendMask": "Máscara",
+  "legendTowel": "Toalha",
+  "legendFountain": "Bebedouro",
+  "legendLockers": "Vestiários",
+  "legendMandatory": "Obrigatório",
+  "legendRecommended": "Recomendado",
+  "legendPartial": "Parcial",
+  "legendForbidden": "Proibido",
+  "legendCleared": "Liberado",
+  "legendClosed": "Fechado",
+  "footerRights": "Todos os direitos reservados - 2020",
+  "errorsInternetError": "Não foi possível se conectar ao servidor tente novamente mais tarde",
+  "errorsUnitiesGetError": "Não foi possível recuperar as unidades",
+  "unitiesEmpty": "Nenhuma unidade encontrada",
+  "opened": "Aberto",
+  "closed": "Fechado",
+  "range": "{startHours}h{startMinutes} às {endHours}h{endMinutes}",
+  "@range": {
+    "placeholders": {
+      "startHours": {
+        "type":"String"
+      },
+      "startMinutes": {
+        "type":"String"
+      },
+      "endHours": {
+        "type":"String"
+      },
+      "endMinutes": {
+        "type":"String"
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "headerTitle": "REOPENING SMART FIT",
+  "warningHeader": "The opening hours of our units follow the decrees of each municipality. Therefore, check here if your unit is open and the security measures we are following.",
+  "formHour": "Time",
+  "formWhatTime":"What period do you want to train?",
+  "formMorning": "Morning",
+  "formMorningTime": "06:00 to 12:00",
+  "formAfternoon": "Afternoon",
+  "formAfternoonTime": "12:01 to 18:00",
+  "formNight": "Evening",
+  "formNightTime": "18:01 to 23:00",
+  "formShowClosed": "Show closed units",
+  "formFind": "Find",
+  "formClean": "Clean",
+  "formFinds": "Results",
+  "legendMask": "Mask",
+  "legendTowel": "Towel",
+  "legendFountain": "Drinking fountain",
+  "legendLockers": "Locker Rooms",
+  "legendMandatory": "Mandatory",
+  "legendRecommended": "Recommended",
+  "legendPartial": "Partial",
+  "legendForbidden": "Forbidden",
+  "legendCleared": "Cleared",
+  "legendClosed": "Closed",
+  "footerRights": "All rights reserved - 2020",
+  "errorsInternetError": "Unable to connect to the server, try again later",
+  "errorsUnitiesGetError": "Unable to recover unities",
+  "unitiesEmpty": "No unities found",
+  "opened": "Open",
+  "closed": "Closed",
+  "range": "{startHours}h{startMinutes} to {endHours}h{endMinutes}",
+  "@range": {
+    "placeholders": {
+      "startHours": {
+        "type":"String"
+      },
+      "startMinutes": {
+        "type":"String"
+      },
+      "endHours": {
+        "type":"String"
+      },
+      "endMinutes": {
+        "type":"String"
+      }
+    }
+  }
+}

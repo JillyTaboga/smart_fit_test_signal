@@ -1,0 +1,45 @@
+name: smart_fit_test_signal
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.2.6 <4.0.0"
+
+dependencies:
+  dio: ^5.4.0
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  get_it: ^7.6.7
+  injectable: ^2.3.2
+  intl: ^0.18.1
+  signals_flutter: ^4.1.0
+  flutter_html: ^3.0.0-beta.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.8
+  injectable_generator: ^2.4.1
+  mocktail: ^1.0.3
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Gotham
+      fonts:
+        - asset: fonts/GothamMedium.ttf
+        - asset: fonts/GothamBook.ttf
+          weight: 400
+        - asset: fonts/GothamLight.ttf
+          weight: 300
+        - asset: fonts/GothamBold.ttf
+          weight: 800
