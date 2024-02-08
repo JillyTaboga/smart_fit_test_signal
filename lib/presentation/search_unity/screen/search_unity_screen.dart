@@ -140,7 +140,7 @@ class _SearchUnityScreenState extends State<SearchUnityScreen> {
                       onSearch: (newQuery) {
                         query.set(newQuery);
                         scrollController.animateTo(
-                          MediaQuery.of(context).size.height,
+                          scrollController.position.maxScrollExtent,
                           duration: Durations.medium3,
                           curve: Curves.easeIn,
                         );
